@@ -1,0 +1,85 @@
+html,
+body {
+  display: flex;
+  background: floralwhite;
+  flex-direction: column;
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  height: 250px;
+  background-image: url(/images/nepal.jpg);
+}
+
+.content {
+  flex: 1;
+}
+
+.description {
+  margin: 20px;
+  position: absolute;
+  top: 50px;
+}
+
+.center {
+  position: absolute;
+  margin-right: 20px;
+  top: 180px;
+  left: 5%;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.info {
+  position: absolute;
+  top: 36%;
+  left: 23%;
+}
+
+.info1 {
+  text-align: start;
+  font-size: 28px;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 4px;
+}
+
+.info2 {
+  text-align: start;
+  font-size: 16px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 8px;
+}
+
+.lab:link,
+.lab:visited {
+  color: blue;
+  text-align: center;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.lab:hover,
+.lab:active {
+  color: cornflowerblue;
+}
+
+.profile {
+  width: 180px;
+  height: 180px;
+  border-radius: 40px;
+  border: 1px solid white;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100px; /* Height of the footer */
+  background: #6cf;
+}
