@@ -36,11 +36,17 @@ body {
 }
 
 .info {
-  position: absolute;
-  top: 35%;
-  left: 18%;
+  width: auto;
+  margin-top: 80px;
+  margin-left: 12px;
 }
 
+.image {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
 .info1 {
   text-align: start;
   font-size: 28px;
