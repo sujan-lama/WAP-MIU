@@ -1,0 +1,138 @@
+body {
+  font-size: 8pt;
+  background-image: url("../images/movie/background.png");
+  font-family: Verdana, Tahoma, sans-serif;
+  margin: 0;
+}
+
+h1 {
+  font-size: 24pt;
+  font-family: Tahoma, Verdana, sans-serif;
+  color: black;
+  text-shadow: 3px 3px #999999;
+  text-align: center;
+}
+
+.content {
+  width: 800px;
+  margin: 0 auto;
+  border: 4px solid gray;
+  border-radius: 20px;
+  overflow: hidden;
+  margin-bottom: 32px;
+}
+
+.content-header {
+  height: 83px;
+  background-image: url("../images/movie/rbg.png");
+}
+
+.banner {
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  background-image: url(../images/movie/bannerbg.png);
+}
+
+.rottenbig {
+  float: left;
+  display: inline;
+  height: 83px;
+  vertical-align: baseline;
+}
+
+.rating {
+  font-size: 48pt;
+  color: red;
+  padding: 6px;
+  margin: 0;
+  font-weight: bold;
+}
+
+.column {
+  float: left;
+  width: 30%;
+  margin: 2%;
+}
+
+.ratingimg {
+  float: left;
+  clear: left;
+  margin-right: 5px;
+}
+
+.review {
+  clear: left;
+  vertical-align: text-top;
+}
+
+.ratingbox {
+  border: 2px solid gray;
+  border-radius: 10px;
+  padding: 8px;
+  font-size: 8pt;
+  overflow: hidden;
+  font-weight: bold;
+}
+
+.user {
+  margin-top: 8px;
+}
+
+.userimg {
+  float: left;
+}
+.username {
+  margin-left: 5px;
+}
+.publication {
+  margin-top: -2px;
+  font-style: italic;
+  margin-left: 5px;
+}
+
+.row {
+  clear: both;
+}
+
+.overview {
+  position: relative;
+  float: right;
+  width: 250px;
+  background-color: #a2b964;
+  margin-top: -795px;
+  font-size: 8pt;
+  font-family: Arial, sans-serif;
+}
+
+.overviewimg {
+  object-fit: fill;
+  width: 250px;
+}
+
+dl {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+dt {
+  font-weight: bold;
+  margin-top: 16px;
+  margin-bottom: 4px;
+}
+dd {
+  margin-bottom: 4px;
+}
+
+.footer {
+  background-color: #a2b964;
+  width: 100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  float: left;
+  text-align: center;
+}
+
+.validation {
+  float: right;
+}
