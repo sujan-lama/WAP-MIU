@@ -1,0 +1,62 @@
+body {
+  background-image: linear-gradient(to right, rgba(255, 0, 0, 0), lightskyblue);
+  margin: 16px;
+  font-size: 18px;
+}
+
+h1 {
+  color: royalblue;
+  font-size: 48px;
+  text-align: center;
+}
+
+h2 {
+  color: royalblue;
+  font-family: "Courier New", Courier, monospace;
+  font-style: initial;
+  font-size: 24px;
+}
+
+a {
+  color: royalblue;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: oblique;
+}
+span {
+  font-size: 18px;
+  color: black;
+}
+
+dt {
+  text-decoration-line: underline;
+  color: rgb(23, 15, 71);
+}
+.column {
+  float: left;
+  margin-left: 10%;
+}
+
+li {
+  margin: 16px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* remove underline from links */
+a:link {
+  text-decoration: none;
+}
+
+p::first-letter {
+  font-size: 1.5em;
+}
+
+footer {
+  text-align: right;
+  float: right;
+}
