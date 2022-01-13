@@ -49,6 +49,11 @@ h1 {
   font-weight: bold;
 }
 
+/* Clear floats after the columns */
+.row:after {
+  clear: both;
+}
+
 .column {
   float: left;
   width: 30%;
@@ -86,13 +91,9 @@ h1 {
   margin-left: 5px;
 }
 .publication {
-  margin-top: -2px;
   font-style: italic;
   margin-left: 5px;
-}
-
-.row {
-  clear: both;
+  margin-bottom: 28px;
 }
 
 .overview {
@@ -100,7 +101,7 @@ h1 {
   float: right;
   width: 250px;
   background-color: #a2b964;
-  margin-top: -795px;
+  margin-top: -90px;
   font-size: 8pt;
   font-family: Arial, sans-serif;
 }
@@ -134,5 +135,8 @@ dd {
 }
 
 .validation {
-  float: right;
+  position: fixed;
+  right: 0px;
+  bottom: 0px;
+  opacity: 0.5;
 }
