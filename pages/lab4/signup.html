@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signup</title>
+    <link rel="stylesheet" href="../../css/signup.css" />
+  </head>
+  <body>
+    <div class="header">
+      <img src="../../images/form/nerdluv.png" alt="logo" width="180" />
+    </div>
+    <br />
+    <div class="content">
+      <form action="http://mumstudents.org/params.php" method="post">
+        <fieldset>
+          <legend>New User Signup:</legend>
+          <br />
+          <label for="name">Name: </label>
+          <input type="text" maxlength="16" name="name" size="16" id="name" />
+          <br /><br />
+          <label>Gender: </label>
+          <input type="radio" name="gender" id="male" />
+          <label for="male">Male</label>
+
+          <input type="radio" name="gender" id="female" checked />
+          <label for="female">Female</label>
+
+          <br /><br />
+          <label for="age">Age: </label>
+          <input type="text" name="age" id="age" maxlength="2" size="6" />
+
+          <br /><br />
+          <label for="personality">Personality type: </label>
+          <input
+            type="text"
+            name="personality"
+            maxlength="4"
+            size="6"
+            id="personality"
+          />
+          <a
+            class="type"
+            href="http://www.humanmetrics.com/cgi-win/JTypes2.asp"
+            target="_blank"
+            >(Don't know your type?)</a
+          >
+
+          <br /><br />
+          <label for="favoriteOS">Favorite OS: </label>
+          <select name="favoriteOS" id="favoriteOS">
+            <option value="Windows" selected>Windows</option>
+            <option value="Mac OS X">Mac OS X</option>
+            <option value="Linux">Linux</option>
+          </select>
+
+          <br /><br />
+          <label>Seeking age: </label>
+          <input type="text" placeholder="min" size="6" />
+          to
+          <input type="text" placeholder="max" size="6" />
+
+          <br /><br />
+          <input class="btn" type="submit" value="Sign Up" />
+        </fieldset>
+      </form>
+    </div>
+    <br />
+    <footer>
+      <p>
+        This page is for single nerds to meet and date each other! Type in your
+        personal information and wait for the nerdly luv to begin! Thank you for
+        using our site
+      </p>
+      <p>Results and page &copy; Copyright Nerdluv Inc.</p>
+      <br />
+      <a class="backlink" href="../../index.html">
+        <img
+          style="float: left"
+          src="../../images/form/back.png"
+          alt="back"
+          width="38"
+        />
+        <p class="back">Back to front page</p>
+      </a>
+
+      <br />
+      <a
+        href="http://validator.w3.org/nu/?doc=https://sujan-lama.github.io/pages/lab4/signup.html"
+        target="_blank"
+      >
+        <img src="../../images/resources/w3c-html.png" alt="html validator"
+      /></a>
+      <a
+        href="https://jigsaw.w3.org/css-validator/validator?uri=https://sujan-lama.github.io/pages/lab4/signup.html"
+        target="_blank"
+      >
+        <img src="../../images/resources/w3c-css.png" alt="html validator"
+      /></a>
+    </footer>
+  </body>
+</html>

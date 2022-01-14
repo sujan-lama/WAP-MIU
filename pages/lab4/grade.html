@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../../css/grade.css" />
+    <title>Retrieve Grade</title>
+  </head>
+  <body>
+    <form action="http://mumstudents.org/params.php" method="post">
+      <fieldset>
+        <legend>Retrieve your grade</legend>
+        <label for="name" class="label">Name : </label>
+        <input type="text" id="name" name="name" />
+        <br /><br />
+        <label class="label" for="stdid">Student Id : </label>
+        <input type="number" id="stdid" name="id" />
+        <br />
+        <br />
+        <label class="label" for="assignment">Assignment</label>
+        <select name="assignment" id="assignment">
+          <option value="assignment1">Assignment 1</option>
+          <option value="assignment2">Assignment 2</option>
+          <option value="assignment3">Assignment 3</option>
+        </select>
+        <br /><br />
+
+        <label class="label">Entry Month: </label>
+        <br /><br />
+        <label for="entryDateFebruary"
+          ><input
+            type="radio"
+            name="entryDate"
+            id="entryDateFebruary"
+            value="february"
+            checked
+          />
+          February</label
+        >
+        <label for="entryDateMay"
+          ><input type="radio" name="entryDate" id="entryDateMay" value="may" />
+          May</label
+        >
+        <label for="entryDateAugust"
+          ><input
+            type="radio"
+            name="entryDate"
+            id="entryDateAugust"
+            value="august"
+          />
+          August</label
+        >
+        <label for="entryDateNovember"
+          ><input
+            type="radio"
+            name="entryDate"
+            id="entryDateNovember"
+            value="november"
+          />November</label
+        >
+        <br /><br />
+        <input type="checkbox" name="agree" id="agree" />
+        <label>
+          I agree to look up my own grade and if found guilty will be punished
+        </label>
+
+        <br /><br />
+        <input class="btn" type="submit" value="Get Grade!" />
+      </fieldset>
+    </form>
+
+    <br />
+    <a class="backlink" href="../../index.html">
+      <img
+        style="float: left"
+        src="../../images/form/back.png"
+        alt="back"
+        width="38"
+      />
+      <p class="back">Back to front page</p>
+    </a>
+    <br />
+    <a
+      href="http://validator.w3.org/nu/?doc=https://sujan-lama.github.io/pages/lab4/grade.html"
+      target="_blank"
+    >
+      <img src="../../images/resources/w3c-html.png" alt="html validator"
+    /></a>
+    <a
+      href="https://jigsaw.w3.org/css-validator/validator?uri=https://sujan-lama.github.io/pages/lab4/grade.html"
+      target="_blank"
+    >
+      <img src="../../images/resources/w3c-css.png" alt="html validator"
+    /></a>
+  </body>
+</html>
