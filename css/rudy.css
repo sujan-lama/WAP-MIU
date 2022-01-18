@@ -1,0 +1,19 @@
+body {
+  position: relative;
+  height: 400px;
+}
+
+button {
+  width: 400px;
+  height: 150px;
+  font-size: 48pt;
+  font-weight: bold;
+  background-color: tomato;
+  color: white;
+}
+
+span {
+  display: block;
+  margin-top: 32px;
+  font-size: 32pt;
+}

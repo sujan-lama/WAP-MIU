@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../../css/banking.css" />
+    <script type="module" src="../../js/banking.js"></script>
+    <title>Create Banking Account</title>
+  </head>
+  <body>
+    <div class="name">
+      <label for="name">Account Name: </label>
+      <input type="text" name="name" id="name" />
+    </div>
+    <br />
+
+    <div class="deposit">
+      <label for="deposit">Deposit: </label>
+      <input type="number" name="deposit" id="deposit" />
+    </div>
+
+    <br />
+    <button id="createAccount">Create new Account</button>
+    <textarea
+      readonly
+      class="details"
+      name="details"
+      id="details"
+      cols="80"
+      rows="10"
+    ></textarea>
+    <br /><br /><br />
+    <div class="validator">
+      <a
+        href="http://validator.w3.org/nu/?doc=https://sujan-lama.github.io/pages/lab8/banking.html"
+        target="_blank"
+      >
+        <img src="../../images/resources/w3c-html.png" alt="html validator"
+      /></a>
+      <br />
+      <a
+        href="https://jigsaw.w3.org/css-validator/validator?uri=https://sujan-lama.github.io/pages/lab8/banking.html"
+        target="_blank"
+      >
+        <img src="../../images/resources/w3c-css.png" alt="css validator"
+      /></a>
+      <br />
+
+      <a
+        href="http://mumstudents.org/jshint/check.php?uri=https://sujan-lama.github.io/pages/lab8/banking.html"
+        target="_blank"
+      >
+        <img src="../../images/resources/jscheck-small.png" alt="js validator"
+      /></a>
+    </div>
+  </body>
+</html>
