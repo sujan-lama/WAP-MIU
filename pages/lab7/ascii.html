@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../../css/ascii.css" />
+    <script type="module" src="../../js/animation.js"></script>
+    <script type="module" src="../../js/ascii.js"></script>
+
+    <title>ASCIImation</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="title">
+        <img src="../../images/ascii/heart.png" alt="heart" class="heart" />
+        <h1>CS472: ASCII Animation Viewer</h1>
+      </div>
+      <textarea
+        name="asciiTextArea"
+        id="asciiTextArea"
+        cols="80"
+        rows="20"
+      ></textarea>
+
+      <fieldset>
+        <legend>Play Controls:</legend>
+        <button id="start" disabled>Start</button>
+        <button disabled id="stop">Stop</button>
+      </fieldset>
+
+      <fieldset>
+        <legend>Animations:</legend>
+        <select name="animation" id="animation">
+          <option value="blank">Blank</option>
+          <option value="exercise">Exercise</option>
+          <option value="juggler">Juggler</option>
+          <option value="bike">Bike</option>
+          <option value="dive">Dive</option>
+          <option value="custom">Custom</option>
+        </select>
+      </fieldset>
+
+      <fieldset>
+        <legend>Size:</legend>
+        <select id="size">
+          <option value="7pt">Tiny</option>
+          <option value="10pt">Small</option>
+          <option value="12pt" selected>Medium</option>
+          <option value="16pt">Large</option>
+          <option value="24pt">Extra Large</option>
+          <option value="32pt">XXL</option>
+        </select>
+      </fieldset>
+
+      <fieldset>
+        <legend>Speed:</legend>
+        <input type="checkbox" name="turbo" id="turbo" />
+        <label for="turbo">Turbo</label>
+      </fieldset>
+
+      <br /><br /><br />
+      <div class="validator">
+        <a
+          href="http://validator.w3.org/nu/?doc=https://sujan-lama.github.io/pages/lab7/ascii.html"
+          target="_blank"
+        >
+          <img src="../../images/resources/w3c-html.png" alt="html validator"
+        /></a>
+        <br />
+        <a
+          href="https://jigsaw.w3.org/css-validator/validator?uri=https://sujan-lama.github.io/pages/lab7/ascii.html"
+          target="_blank"
+        >
+          <img src="../../images/resources/w3c-css.png" alt="css validator"
+        /></a>
+        <br />
+
+        <a
+          href="http://mumstudents.org/jshint/check.php?uri=https://sujan-lama.github.io/pages/lab7/ascii.html"
+          target="_blank"
+        >
+          <img
+            src="../../images/resources/jscheck-small.png"
+            alt="js validator"
+        /></a>
+      </div>
+    </div>
+  </body>
+</html>
