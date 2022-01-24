@@ -28,6 +28,7 @@ window.onload = function () {
 
     function malkovich() {
         const ta = document.getElementById("itemta");
+        document.getElementById('pic').src = ' url("../../images/sujan.jpg")';
         const content = ta.value.split(' ');
         let newValue = '';
         for (let i = 0; i < content.length; i++) {

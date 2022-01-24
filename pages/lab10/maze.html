@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!-- saved from url=(0056)http://mumstudents.org/cs472/2022-01-BL/Labs/7/maze.html -->
+<html>
+  <!--
+	CSE 190 M Lab 7 HTML file
+	You should download this file for your lab, but you should not edit its contents.
+	--><head>
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1252" />
+    <title>Maze!</title>
+
+    <!-- provided files; do not modify -->
+    <link href="../../css/maze.css" type="text/css" rel="stylesheet" />
+
+    <!-- your code -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="../../js/maze.js"></script>
+  </head>
+
+  <body>
+    <h1>The Amazing Mouse Maze!</h1>
+    <h2 id="status">Click the "S" to begin.</h2>
+
+    <!-- This part of the page represents the maze -->
+    <div id="maze">
+      <div id="start">S</div>
+      <div class="boundary" id="boundary1"></div>
+      <div class="boundary"></div>
+      <div class="boundary"></div>
+      <div class="boundary"></div>
+      <div class="boundary"></div>
+      <div id="end">E</div>
+    </div>
+
+    <p>
+      The object of this game is to guide the mouse cursor through the start
+      area and get to the end area. Be sure to avoid the walls:
+    </p>
+
+    <div class="boundary example"></div>
+
+    <p>Good luck!</p>
+
+    <div class="validator">
+      <a
+        href="http://validator.w3.org/nu/?doc=https://sujan-lama.github.io/pages/lab10/maze.html"
+        target="_blank"
+      >
+        <img src="../../images/resources/w3c-html.png" alt="html validator"
+      /></a>
+      <br />
+      <a
+        href="https://jigsaw.w3.org/css-validator/validator?uri=https://sujan-lama.github.io/pages/lab10/maze.html"
+        target="_blank"
+      >
+        <img src="../../images/resources/w3c-css.png" alt="css validator"
+      /></a>
+      <br />
+
+      <a
+        href="http://mumstudents.org/jshint/check.php?uri=https://sujan-lama.github.io/pages/lab10/maze.html"
+        target="_blank"
+      >
+        <img src="../../images/resources/jscheck-small.png" alt="js validator"
+      /></a>
+    </div>
+  </body>
+</html>
