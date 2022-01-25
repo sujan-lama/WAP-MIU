@@ -1,4 +1,12 @@
 
+$(document).ready(function () {
+
+    $("body").append("<div><h1>JQuery Core </h1></div>");
+    $("body div").each(function () {
+        $(this).append(" hello");
+
+    });
+});
 // function job(state) {
 //     return new Promise(function (resolve, reject) {
 //         if (state) {
@@ -19,21 +27,21 @@
 //     });
 
 
-var a = 10;
-var b = 8;
-function x(a) {
-    b = 2;
-    var sum = a + b;
-    console.log("sum " + sum);
-    var c = function () {
-        2 * b;
-    }
-    var b = 3;
-    console.log(b);
-    return c;
-}
-var c = x(a);
-c();
+// var a = 10;
+// var b = 8;
+// function x(a) {
+//     b = 2;
+//     var sum = a + b;
+//     console.log("sum " + sum);
+//     var c = function () {
+//         2 * b;
+//     }
+//     var b = 3;
+//     console.log(b);
+//     return c;
+// }
+// var c = x(a);
+// c();
 
 
 
