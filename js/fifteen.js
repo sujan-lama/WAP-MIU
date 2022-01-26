@@ -1,5 +1,5 @@
-"use strict";
 function onReady() {
+    "use strict";
     var emptyX = 300;
     var emptyY = 300;
 

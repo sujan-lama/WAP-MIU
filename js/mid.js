@@ -1,11 +1,8 @@
 
 $(document).ready(function () {
+    $("span").detach();
+    $("p").last().text($("p").first().text());
 
-    $("body").append("<div><h1>JQuery Core </h1></div>");
-    $("body div").each(function () {
-        $(this).append(" hello");
-
-    });
 });
 // function job(state) {
 //     return new Promise(function (resolve, reject) {
