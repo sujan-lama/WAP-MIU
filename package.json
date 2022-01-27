@@ -1,5 +1,23 @@
 {
   "dependencies": {
     "eslint": "^8.7.0"
-  }
+  },
+  "name": "wap",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sujan-lama/sujan-lama.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sujan-lama/sujan-lama.github.io/issues"
+  },
+  "homepage": "https://github.com/sujan-lama/sujan-lama.github.io#readme",
+  "description": ""
 }
