@@ -28,7 +28,7 @@ body {
 .container {
   width: 100%;
   height: 250px;
-  background-image: url(/images/nepal.jpg);
+  background-image: url(../images/nepal.jpg);
 }
 
 .content {
